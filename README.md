@@ -26,9 +26,9 @@ npm install npm-name-exists
 
 ```js
 const exists = require('npm-name-exists')
-exists('fs') //=> true
-exists('miny') //=> true
-exists('my-dope-new-package') //=> false
+await exists('fs') //=> true
+await exists('miny') //=> true
+await exists('my-dope-new-package') //=> false
 ```
 
 
