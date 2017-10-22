@@ -16,7 +16,7 @@ const request = name => {
     })
 }
 
-module.exports = async name => {
+module.exports = name => {
   if (typeof name !== 'string' || !name) {
     return false
   }
