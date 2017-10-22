@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <i>Check if a name is available on npm</i>
+  <i>Check if a name exists on npm</i>
 </p>
 
 
