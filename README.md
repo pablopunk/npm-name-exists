@@ -12,6 +12,8 @@
   <i>Check if a name exists on npm</i>
 </p>
 
+This package is almost identical to [npm-name](https://github.com/sindresorhus/npm-name), but it's very lightweight cause it doesn't use `lodash`.
+
 
 ## Install
 
