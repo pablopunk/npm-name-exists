@@ -11,8 +11,6 @@ const request = name => {
       if (err.statusCode === 404) {
         return false
       }
-
-      throw err
     })
 }
 
