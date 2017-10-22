@@ -23,8 +23,10 @@ npm install npm-name-exists
 ## Usage
 
 ```js
-const npmNameExists = require('npm-name-exists')
-// use as you like
+const exists = require('npm-name-exists')
+exists('fs') //=> true
+exists('miny') //=> true
+exists('my-dope-new-package') //=> false
 ```
 
 
