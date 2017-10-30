@@ -12,7 +12,8 @@ test('returns true for an existing module', async t => {
 })
 
 test('returns false for an unexisting module', async t => {
-  const res = await m('i-hope-this-does-not-exist')
+  const randomNumber = Math.floor(Math.random() * 1000)
+  const res = await m(`i-hope-this-does-not-exist-${randomNumber}`)
   t.false(res)
 })
 
