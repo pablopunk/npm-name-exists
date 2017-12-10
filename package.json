@@ -1,7 +1,7 @@
 {
   "name": "npm-name-exists",
   "description": "Check if a name exists on npm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Pablo Varela <pablovarela182@gmail.com>",
   "bugs": {
     "url": "https://github.com/pablopunk/npm-name-exists/issues",
